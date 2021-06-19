@@ -1,1 +1,1 @@
-(()=>{const o=o=>{console.log(`hello ${o}`)};o("sagar"),o("mario")})();
+(()=>{"use strict";console.log("dom file");const e=document.querySelector("body"),o=[{name:"mario",premium:!0},{name:"sagar",premium:!1}];console.log("index file!"),e.style.background="peachpuff",(o=>{const n=document.createElement("h1");n.textContent="Hello World! From the index file",e.appendChild(n)})(),console.log("mario@netninja.co.uk"),console.log(o);const n=o.filter((e=>e.premium));console.log(n)})();
